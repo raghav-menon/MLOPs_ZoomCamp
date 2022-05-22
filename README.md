@@ -1,1 +1,1 @@
-Homework from MLOPS Zoomcamp Intro section
+Homework from MLOPS Zoomcamp
