@@ -5,4 +5,5 @@ to obtain the solution. The first question was to check the version. I have used
 the folder 'artifacts' as the artifact store instead of the default folder mlruns. This can be done using the following command
 
 ``` 
-mlflow ui --backend-store-uri sqlite:///<path to folder where database>/<database name> --default-artifact-root file:///<path to folder where the file resides>/<folder name>
+mlflow ui --backend-store-uri sqlite:///<path to folder where database exists>/<database name> --default-artifact-root file:///<path to folder where the file resides>/<folder name>
+ # Incase database or the artifact folder does not exist the command creates them
